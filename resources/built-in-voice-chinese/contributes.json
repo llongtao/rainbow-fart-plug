@@ -1,0 +1,137 @@
+{
+    "contributes": [
+        {
+            "keywords": ["void","psvm", "public", "main "],
+            "voices":[
+                "function_01.mp3",
+                "function_02.mp3",
+                "function_03.mp3"
+            ]
+        },
+        {
+            "keywords": ["->"],
+            "voices": ["arrow_function_01.mp3"]
+        },
+        {
+            "keywords": ["if"],
+            "voices": [
+                "if_01.mp3",
+                "if_02.mp3",
+                "if_03.mp3"
+            ]
+        },
+        {
+            "keywords": ["for","iter","List", "while"],
+            "voices": [
+                "for_01.mp3",
+                "for_02.mp3",
+                "for_03.mp3"
+            ]
+        },
+        {
+            "keywords": ["await"],
+            "voices": [
+                "await_01.mp3",
+                "await_02.mp3",
+                "await_03.mp3"
+            ]
+        },
+        {
+            "keywords": ["try"],
+            "voices": [
+                "catch_01.mp3",
+                "catch_02.mp3",
+                "catch_03.mp3"
+            ]
+        },
+        {
+            "keywords": ["import"],
+            "voices": [
+                "import_01.mp3",
+                "import_02.mp3"
+            ]
+        },
+        {
+            "keywords": ["v-html"],
+            "voices": [
+                "v_html_01.mp3"
+            ]
+        },
+        {
+            "keywords": ["fuck", "shit"],
+            "voices": [
+                "fuck_pm_01.mp3",
+                "fuck_pm_02.mp3"
+            ]
+        },
+        {
+            "keywords": ["09:05"],
+            "voices": ["time_morning_01.mp3"]
+        },
+        {
+            "keywords": ["11:50"],
+            "voices": [
+                "time_before_noon_01.mp3",
+                "time_before_noon_02.mp3",
+                "time_before_noon_03.mp3",
+                "time_before_noon_04.mp3"
+            ]
+        },
+        {
+            "keywords": ["12:40"],
+            "voices": ["time_noon_01.mp3"]
+        },
+        {
+            "keywords": ["07:00","07:30","08:00","08:30","09:00","09:30","10:00"],
+            "voices": ["time_evening_01.mp3"]
+        },
+        {
+            "keywords": ["10:30","11:00","11:30","00:00","00:30","01:00","01:30","02:00"],
+            "voices": ["time_midnight_01.mp3"]
+        },
+        {
+            "keywords": ["$time_each_hour"],
+            "voices": [
+                "time_each_hour_01.mp3",
+                "time_each_hour_02.mp3",
+                "time_each_hour_03.mp3",
+                "time_each_hour_04.mp3",
+                "time_each_hour_05.mp3"
+            ]
+        }
+    ],
+    "timers": [
+        {
+            "keywords": ["09:05"],
+            "voices": ["time_morning_01.mp3"]
+        },
+        {
+            "keywords": ["11:50"],
+            "voices": [
+                "time_before_noon_01.mp3",
+                "time_before_noon_02.mp3",
+                "time_before_noon_03.mp3",
+                "time_before_noon_04.mp3"
+            ]
+        },
+        {
+            "keywords": ["12:40"],
+            "voices": ["time_noon_01.mp3"]
+        },
+        {
+            "keywords": ["19:00","19:30","20:00","20:30","21:00","21:30","22:00"],
+            "voices": ["time_evening_01.mp3"]
+        },
+        {
+            "keywords": ["22:30","23:00","23:30","00:00","00:30","01:00","01:30","02:00"],
+            "voices": ["time_midnight_01.mp3"]
+        }
+    ],
+    "longTimes": [
+        "time_each_hour_01.mp3",
+        "time_each_hour_02.mp3",
+        "time_each_hour_03.mp3",
+        "time_each_hour_04.mp3",
+        "time_each_hour_05.mp3"
+    ]
+}

@@ -1,0 +1,56 @@
+<idea-plugin>
+  <id>com.llt.rainbow.fart</id>
+  <name>rainbow-fart</name>
+  <version>1.2</version>
+  <vendor email="1132111029@qq.com" url="http://www.aexp.top">lilongtao</vendor>
+
+  <description><![CDATA[
+
+
+      Usage: installation is enough<br>
+      Rainbow fast, a cute programmer and encourager who accompanies you to write code<br>
+      Porting from vscode rainbow fast plug-in<br>
+      Voice resources and creativity from the 佐伯乐 rainbow fast vscode plug-in<br>
+      Resource licensing: https://github.com/SaekiRaku/vscode-rainbow-fart/blob/master/LICENSE<br>
+      Source code of vscode plug-in: https://github.com/SaekiRaku/vscode-rainbow-fart<br>
+      Original author: 佐伯乐<br>
+
+
+      ---------------------------------------------------------<br>
+
+      使用方式:安装即可<br>
+      rainbow-fart 一个陪你写代码的萌妹程序员鼓励师<br>
+      移植自vscode rainbow-fart插件<br><br>
+
+      语音资源与创意取自佐伯乐 rainbow-fart vscode插件<br><br>
+
+      资源许可: https://github.com/SaekiRaku/vscode-rainbow-fart/blob/master/LICENSE<br>
+      vscode插件源码: https://github.com/SaekiRaku/vscode-rainbow-fart<br>
+      原作者: 佐伯乐<br>
+
+
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <em>create by lilongtao on 2020-6-23</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.java</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="0" class="com.llt.rainbow.fart.MainAction" text="Rainbow-Fart" description="Main">
+    </action>
+  </actions>
+
+</idea-plugin>
